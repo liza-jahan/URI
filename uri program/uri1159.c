@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{ int a,x,t,y,b=0,c=0;
+while(1)
+{
+ scanf("%d",&x);
+ b=0;
+ if(x==0)
+    break;
+
+ else if(x%2==0)
+ {
+
+   for(a=x; a<=x+8; a=a+2)
+   b = b+a; }
+
+ else
+
+ {
+   for(a=x+1;a<=x+9;a+=2)
+
+
+     b +=a;
+
+ }
+ printf("%d\n",b);
+
+  }
+    return 0;
+}

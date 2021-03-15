@@ -1,0 +1,20 @@
+
+#include<stdio.h>
+int main()
+{
+   int a,i,j,X,Y,n=0;
+   while(1)
+   {
+
+   scanf("%d",&X);
+ if(X==0)
+    break;
+   else{
+
+   for(i=1;i<X;i++)
+ printf("%d ",i);
+   }
+   printf("%d\n",i);
+   }
+ return 0;
+}
